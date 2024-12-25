@@ -1,0 +1,76 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-header {
+    font-size: 24px;
+  }
+  
+  .coin-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .coin-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .coin-item .coin-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .coin-item .coin-info img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .coin-item button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-coin-btn {
+    padding: 10px;
+    /* background-color: green; */
+    color: rgb(37, 36, 36);
+    
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin-right: 10px;
+  }
+  
+  .add-coin-form {
+    margin-top: 20px;
+    
+  }
+  
+  .add-coin-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-coin-form button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
